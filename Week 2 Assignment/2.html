@@ -1,0 +1,55 @@
+<!--We choose our coding language-->
+<!DOCTYPE html>
+<!--We open our html document and select the language of the page-->
+<html lang="en">
+<!--we start with the head of the document-->
+<head>
+    <!--this shows on the tab of the page-->
+    <title>Information Page</title>
+    <!--we link our stylesheet to our html document-->
+    <link rel="stylesheet" href="main.css">
+    <!--we link our script to our html document-->
+    <script src="helper copy.js"></script>
+<!--we close the head section-->
+</head>
+<!--next is the body section where our main content wil be-->
+<body>
+    <!--we add an image-->
+    <img src="https://www.aztechcouncil.org/wp-content/uploads/2020/11/UAT_LOGO_180x180px.jpg" alt="UATlogo"
+        class="UATlogo">
+    <!--we italicise the entire body section for style-->
+    <i>
+        <!--thi is our h1 header and p tags which make up the text parts of the main content-->
+        <h1 id="welcomeToPage"></h1>
+        <!--add an image of me-->
+        <img src="images\IMG-20230105-WA0014.jpg" alt="ME">
+        <h2 id="5FactsAboutMe"></h2>
+        <p id="favGame"></p>
+        <p id="hobbies"></p>
+        <p id="favSong"></p>
+        <p id="favFood"></p>
+        <p id="favColor"></p>
+        <!--add a line break for space-->
+        <br>
+        <!--we insert our button to take us to the home page-->
+        <p>Click here to go back to my Home Page</p>
+        <!--we choose the destination for the button to take us to and name it-->
+        <button onclick="window.open('1.html')">Home Page</button>
+        <!--the script tag is where we add function to the document-->
+        <script>
+            //we call all of our functions to add the text to the page
+            displayText()
+            displayText2("5FactsAboutMe" , "Five Facts About Me")
+            displayText2("favGame" , "1. As a dedicated gamer of many many years, I've spent the most time playing Brawlhalla, having over 1,700 hours.")
+            displayText2("hobbies" , "2. My only hobby as of right now is gaming.")
+            displayText3("favSong" , "3. The only artist I listen to everyday. I've been a big fan of his for quite some time now and I can confidently say that 734, and Lean Wit' Me are two of his best/my favorite songs.")
+            displayText3("favFood" , "4. I'm from the Bahamas and I love eating Bahamian food. My top favorite meal to eat would be cracked chicken and fries.")
+            displayText3("favColor" , "5. My favorite color is black.")
+        //we close our script section
+        </script>
+    <!--end our italics at the end of the body-->    
+    </i>
+<!--close the body of the page-->
+</body>
+<!--we close our html docutment-->
+</html>

@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: black;
+    background-image: url('https://wallpaperaccess.com/full/127748.jpg');
+    font-family: serif georgia;
+    color: white;
+    font-size: xx-large;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+a:link {
+    color: red;
+}
+
+a:hover {
+    text-decoration: black;
+    cursor: pointer;
+    color: white;
+}
+

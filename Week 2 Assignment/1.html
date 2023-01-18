@@ -1,0 +1,52 @@
+<!--we choose our coding language for our document-->
+<!DOCTYPE html>
+<!--we open our html document and choose the language-->
+<html lang="en">
+<!--we start with the head section of our document-->
+<head>
+    <!--this pops up on the tab of our page-->
+    <title>Home Page</title>
+    <!--we link our stylesheet to the document-->
+    <link rel="stylesheet" href="main.css">
+    <!--we link our script to the document-->
+    <script src="helper.js"></script>
+<!--we close our head section-->
+</head>
+<!--we then open our body section to put the main content of our page-->
+<body>
+    
+    <img src="https://www.aztechcouncil.org/wp-content/uploads/2020/11/UAT_LOGO_180x180px.jpg" alt="UATlogo"
+        class="UATlogo">
+    <!--italicise all the text of the body-->
+    <i>
+        <!--here is where we label all of our paragrphs and headers-->
+        <h1 id="aboutMe"></h1>
+        <h2 id="myName"></h2>
+        <h4 id="myMajor"></h4>
+        <p id="advancingComputerScience"></p>
+        <h4 id="expectedGraduationDate"></h4>
+        <p id="graduationDate"></p>
+        <h4 id="myEmail"></h4>
+        <p id="myEmaillink"><i>You can directly email me at <a href="mailto:anddames@uat.edu">Andrew Dames Jr.</a></i>
+        </p>
+    <!--we end the italics here-->
+    </i>
+    <!-- we open our script tag to add function to the page-->
+    <script>
+        //we call all of our functions to add text
+        displayText()
+        displayText2("myName", "Andrew Dames Jr.")
+        displayText2("myMajor", "Major")
+        displayText2("advancingComputerScience", "Advancing Computer Science")
+        displayText3("expectedGraduationDate", "Expected Graduation Date")
+        displayText3("graduationDate", "May 2025")
+        displayText3("myEmail", "My Email Adress")
+    //we close the script section
+    </script>
+    <!-- we add a button to take us to the information page-->
+    <p><i>Click here to go to my Information Page</i></p>
+    <button onclick="window.open('2.html')">Information Page</button>
+<!-- we close our body sectiion-->
+</body>
+<!-- we close our html document-->
+</html>
