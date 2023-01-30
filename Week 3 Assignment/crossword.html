@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossword Puzzle</title>
+    <link rel="stylesheet" href="crossword.css">
+    <script src="crossword.js"></script>
+</head>
+
+<body>
+    <!--this table will display 3 words in the crossword puzzle-->
+    <table id="puzzle">
+        <!--this creates all of the different boxes for the words to go into-->
+        <tr>
+            <td></td>
+            <td class="letter"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="letter"></td>
+        </tr>
+
+        <tr>
+            <td class="letter"></td>
+            <td class="letter"></td>
+            <td class="letter"></td>
+            <td class="letter"></td>
+            <td class="letter"></td>
+            <td class="letter"></td>
+            <td class="letter"></td>
+            <td class="letter"></td>
+            <td class="letter"></td>
+            <td class="letter"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="letter"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="letter"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>            
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="letter"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="letter"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="letter"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <table>
+        <!--this table displays the clues for the puzzle-->
+        <tr>
+            <td class="clues">1 Across: A web scripting language.</td>
+        </tr>
+        <tr>
+            <td class="clues">1 Down: How stylesheets work.</td>
+        </tr>
+        <tr>
+            <td class="clues">2 Down: How to format text on a webpage.</td>
+        </tr>
+    </table>
+    <!--this script calls the function from our JavaScript document-->
+    <script>
+        //this function will display the words for the crossword puzzle
+        loadCrosswordPuzzle()
+    </script>
+</body>
+
+</html>
