@@ -1,0 +1,1 @@
+This is an HTML page where users can simply type in their top 10 favorite games to be displayed on the page. It will automatically sort their choices in alphabetical order so they won't have to worry about trying to rank them.
