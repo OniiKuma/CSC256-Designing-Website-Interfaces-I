@@ -1,0 +1,24 @@
+body{
+    color: white;
+    background-image: url('abstract-hexagon-render-3d.jpg');
+    font-size: xx-large;
+    font-family: 'Games', sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+    font-family: 'Games', sans-serif;
+    font-size: large;
+    padding: 20px;
+    border: 2px black solid;
+
+}
+
+input:hover {
+    background-color: transparent;
+    cursor: pointer;
+    border-color: white;
+    color: white;
+}
