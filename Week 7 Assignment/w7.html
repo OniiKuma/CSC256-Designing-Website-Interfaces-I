@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 7 Assignment</title>
+    <link rel="stylesheet" href="w7.css">
+    <script src="w7.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/spacetype" rel="stylesheet">
+</head>
+<body>
+    <h2>Pixel Party</h2>
+    <h3>Choose your playstyle</h3>
+    <!-- This is a form that submits back to the same page -->
+    <form action="#">
+        <!-- Username -->
+        <label for="uname">Username:</label><br>
+        <input type="text" id="uname" name="uname" class="custom1"><br><br>
+        <!--  Weapons -->
+        <label for="weapons">Weapons:</label><br>
+        <input type="text" id="weapons" name="weapons" class="custom2"><br><br>
+        <!-- Health/Damage -->
+        <label for="health">Health/Damage:</label><br>
+        <input type="text" id="health" name="health" class="custom3"><br><br>
+        <!-- Total Points -->
+        <label for="points">Total Points:</label><br>
+        <input type="text" id="points" name="points" class="custom4"><br><br>
+        <!-- The button that starts the game by calling the processForm function -->
+        <button type="button" onclick="processForm();">Start Game</button>
+    </form><br><br>
+    <!-- this div is initially hidden. It will show the user info after the function is called -->
+    <div id="userInfo" style="display: none;">
+        <h2>User settings</h2>
+        <!-- Username -->
+        <label for="userName">Username: </label><div id="userName"></div><br>
+        <!-- Weapons -->
+        <label for="userWeapons">Weapons: </label><div id="userWeapons"></div><br>
+        <!-- Health Damage -->
+        <label for="userHealth">Health/Damage: </label><div id="userHealth"></div><br>
+        <!-- Total Points -->
+        <label for="userPoints">Total Points: </label><div id="userPoints"></div><br>
+        <button type="button" onclick="window.location.reload();" class="refresh">Refresh Page</button>
+    </div>
+    <footer id="footer" style="display: none;">
+        <p style="color:white; font-size: small;">Since this is just a demo, you can refresh the page to start over for now.</p>
+    </footer>
+</body>
+</html>

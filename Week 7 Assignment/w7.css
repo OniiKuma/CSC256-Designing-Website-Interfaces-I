@@ -1,0 +1,60 @@
+/* These styles apply to the whole page */
+body {
+    background-image: url("yafatma.webp");
+    font-size: x-large;
+    color: rgb(255, 184, 184);
+    font-family: 'SpaceType', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+/* These styles apply to the text boxes */
+input{
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    border-bottom: 10px;
+    font-size: large;
+    font-family: 'SpaceType', sans-serif;
+    margin-bottom: 5px;
+    background-color: peachpuff;
+}
+/* These styles apply to the text in the boxes */
+.custom1 , .custom2 , .custom3 , .custom4 {
+    margin-bottom: 7px;
+    color: rgb(190, 153, 50);
+}
+/* These styles apply to the first button */
+button {
+    padding: 9px;
+    border: none;
+    border-radius: 20px;
+    background-color: peachpuff;
+    font-family: 'SpaceType', sans-serif;
+    color: rgb(255, 184, 184);
+    font-size: large;
+}
+/* These styles apply to the first button */
+button:hover {
+    color: peachpuff;
+    background-color: rgb(255, 184, 184);
+    cursor: pointer;
+}
+/* These styles apply to the div */
+div {
+    color: rgb(190, 153, 50);
+}
+/* These styles apply to the second button */
+.refresh {
+    color: rgb(190, 153, 50);
+}
+/* These styles apply to the second button */
+.refresh:hover {
+    background-color: rgb(190, 153, 50);
+    color: peachpuff;
+}
+/* These styles apply to the footer */
+footer {
+    margin-top: 38px;
+}
